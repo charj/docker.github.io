@@ -76,7 +76,7 @@ need to use the legacy `overlay` driver, specify it instead.
 2.  Copy the contents of `/var/lib/docker` to a temporary location.
 
     ```bash
-    $ cp -au /var/lib/docker /var/lib/docker.bk
+    $ sudo cp -au /var/lib/docker /var/lib/docker.bk
     ```
 
 3.  If you want to use a separate backing filesystem from the one used by
